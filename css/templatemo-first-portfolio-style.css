@@ -776,6 +776,11 @@ strong {
   border-radius: 10px; /* Add rounded corners */
   display: inline-block; /* Ensure the tag wraps around the text */
 }
+.project-content {
+
+
+  text-align: center;
+}
 
 
 
