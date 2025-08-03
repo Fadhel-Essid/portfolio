@@ -539,6 +539,23 @@ strong {
   pointer-events: none;
 }
 
+/*---------------------------------------
+  THREE.JS CONTAINER (HERO BACKGROUND)
+-----------------------------------------*/
+#threejs-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Behind hero text (z-index: 22) */
+  overflow: hidden; /* Ensure canvas stays within bounds */
+}
+
+#threejs-container canvas {
+    display: block; /* Remove extra space below canvas */
+}
+
 
 /*---------------------------------------
   ABOUT              
